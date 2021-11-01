@@ -1,0 +1,78 @@
+html, body{
+	font-family: sans-serif;
+	margin: 0;
+}
+
+header{
+	background-image: url("../img/background.jpg");
+	background-repeat: repeat;
+	padding: 40px;
+	text-align: center;
+}
+
+h1{
+	font-size: 90px;
+	color: #dbd7d7;
+}
+
+.wrapper{
+	background-color: #bfb4b4;
+}
+
+header img{
+	border-radius: 214px;
+	border: 18px solid #1a1515;
+}
+
+.content{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+	color: #3b2626;
+}
+
+img.big-image{
+	max-width: 100%;
+}
+
+p.caption{
+	font-size: 16px;
+	color: lightgrey;
+	font-style: italic;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	color: #1a1515;
+	text-decoration: underline;
+}
+
+footer a{
+	color: #dbd7d7;
+}
+
+footer{
+	margin-top: 35px;
+	padding: 20px 20px;
+	background-color: #3b2626;
+	color: #dbd7d7;
+}
+
+footer ul{
+	text-align: center;
+}
+
+footer ul li{
+	display: inline-block;
+	margin: 0 5px;
+}
+
+/*<header>
+	<img src="img/profile.jpg">
+	<h1>The Mandalorian</h1>
+</header>
